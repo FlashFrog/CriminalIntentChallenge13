@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/crime_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+<TextView
+    android:id="@+id/crime_set_empty_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:text="没有数据显示"/>
+<Button
+    android:id="@+id/click"
+    android:gravity="center"
+    android:layout_below="@+id/crime_set_empty_text_view"
+    android:text="Create New Crime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</RelativeLayout>
